@@ -1,13 +1,3 @@
-#ugly
-def compress (l) :
-   last = l[0]
-   acc = [last]
-   for i in l[1:]:
-      if last != i:
-         acc.append(i)
-         last = i
-   return acc
-
 #with itertools
 import itertools
 def compress (l) :
