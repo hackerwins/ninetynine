@@ -1,4 +1,3 @@
-#with itertools
 import itertools
 def pack(l):
    return [list(v) for k, v in itertools.groupby(l)]
